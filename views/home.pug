@@ -1,0 +1,43 @@
+extends base.pug
+block scripts
+     script(src='/static/index.js')
+
+block style 
+  style 
+    include ../static/style.css 
+
+block content
+    
+    section#introSection 
+            div  Walcome to Krushil Dance Academy
+            div.small  Eat.Sleep. Dance. repeat
+    section#misstionSection
+        h2 Our missan 
+        div.card
+            h3 Dance Perfection
+                div.card-box
+                    div.card-img
+                        img(src = "/static/d1.jpg")
+            div.card-conent 
+                p This is the best dance academy of universe
+        div.card
+            h3 Dance the way you like
+                 div.card-box
+                    div.card-img
+                        img(src = "/static/d2.jfif")
+            div.card-conent 
+                p This is the best dance academy of universe
+        div.card
+            h3 Expert Dancers
+                div.card-box
+                    div.card-img
+                         img(src = "/static/d3.png")
+            div.card-conent 
+                p This is the best dance academy of universe   
+    section#sponsorsSection 
+        h2 Our Sponsors 
+            div#sponsors   
+                img(src="/static/insta-logo.webp", alt="sponsors img" , class = "spImage")
+                img(src="/static/whatapps.jfif", alt="sponsors img" , class = "spImage")
+                img(src="/static/69631.png", alt="sponsors img" , class = "spImage")
+                img(src="/static/14.jfif", alt="sponsors img" , class = "spImage")

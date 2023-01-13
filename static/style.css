@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff&display=swap');
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+#logo{
+    display: flex;
+    color: rgb(231, 23, 19);;
+    align-items: center;
+    margin: 0px 14px;
+    font-size: 25px;
+    margin-right: 40px;
+   
+    
+}
+#logo img{
+    height: 42px;
+   filter: invert(2);
+   margin-right: 20px;
+   border-radius: 180%;
+
+}
+
+#navbar{
+    background-color: black;
+    padding: 8px 10px;
+    font-family: 'DynaPuff', cursive;
+}
+#navbar ul{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+#navbar li {
+    list-style: none;
+}
+#navbar li a{
+    text-decoration: none;
+    padding: 13px 30px;
+    color: white;
+    background-color:grey;
+    font-size: 1.2rem;
+    
+}
+
+#navbar li a:hover{
+    color:  brown;
+}
+#introSection{
+    color: brown;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 35px;
+    font-family: 'DynaPuff', cursive;
+    background: center center/cover no-repeat url("./static/thumb-1920-344464.webp");
+    height: 650px;
+    background-color: brown;
+    padding-bottom:  90px;
+
+}
+#introSection div.small{
+    font-size: 27px;
+    padding: 5px;
+    color: aliceblue;
+
+}
+#sponsorsSection {
+   
+    height: 300px;
+    background-color: brown;
+}
+#misstionSection {
+   
+    height: 350px;
+    margin: auto;
+    width: 67%;
+    height: 300px;
+    display: block;
+    opacity: 2;
+   
+}
+
+#misstionSection h2{
+    text-align: center;
+    padding-top: 23px;
+    font-family: 'DynaPuff', cursive;
+
+}
+.card{
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 29%;
+    margin: 23px 20px;
+    height: 210px;
+    display: inline-block;
+    font-family: 'DynaPuff', cursive;
+}
+.card h3{
+    text-align: center;
+    margin: 12px;
+}
+.card-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card-conent p {
+    margin: 0px 5px;
+    margin-bottom: 8px;
+    font-family: 'DynaPuff', cursive;
+    text-align: center;
+    justify-content: center;
+}
+
+.card-img{
+    height: 90px;
+    padding: 0px 45px;
+    margin: 5px 9px;
+   
+}
+.card-img img{
+    height: inherit;
+   
+   
+}
+#sponsorsSection h2{
+    text-align: center;
+    padding-top: 23px;
+    font-family: 'DynaPuff', cursive;
+    font-size: 30px;
+    padding-top: 32px;
+    margin-top: 72px;
+
+
+}
+
+#sponsors{
+    height: 120px;
+    min-width: 1000px;
+    margin: auto;
+
+}
+.spImage{
+    height: 120px;
+    margin: 20px;
+}
+footer#footer {
+    display: flex;
+    height: 60px;
+    background-color: black;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 20px;
+    font-family: 'DynaPuff', cursive;
+}
